@@ -8,7 +8,6 @@ import Home from './Components/Home/Home';
 import Notmatch from "./Components/Notmatch/Notmatch";
 import TeamDetail from "./Components/TeamDetail/TeamDetail";
 
-
 function App() {
   return (
     <div className="App">
