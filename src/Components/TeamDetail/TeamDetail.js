@@ -8,7 +8,7 @@ import TwitterLogo from '../../Photo/Twitter.png';
 import YouTubeLogo from '../../Photo/YouTube.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFutbol, faMarsStroke, faMapMarkerAlt, faFlag } from '@fortawesome/free-solid-svg-icons';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import './TeamDetail.css'
 
 const TeamDetail = () => {
@@ -46,39 +46,22 @@ const TeamDetail = () => {
                 </div>
             </div>
 
-            {/* <div className="row detail">
-                <div className="col-md-12 col-xs-1 d-flex justify-content-around">
-                    <div className="col-md-6 col-xs-12 ">
-                        <h2>{detail.strTeam}</h2>
-                        <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Year: {detail.intFormedYear} </h3>
-                        <h3><FontAwesomeIcon icon={faFlag} /> Country: {detail.strCountry}</h3>
-                        <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {detail.strSport}</p>
-                        <h3> <FontAwesomeIcon icon={faMarsStroke} /> Gender: {detail.strGender}</h3>
-                    </div>
-                    <div className="col-md-6 col-xs-12">
-                        {
-                            detail.strGender === 'Male' ?
-                                <img className="img-fluid" src={malePhoto} alt="" /> : <img src={femalePhoto} alt="" />
-                        }
-                    </div>
-                </div>
-            </div> */}
             <Container>
                 <div className="detail mt-5 p-3">
                     <Row>
                         <Col sm={6}>
-                        <h2>{detail.strTeam}</h2>
-                        <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Year: {detail.intFormedYear} </h3>
-                        <h3><FontAwesomeIcon icon={faFlag} /> Country: {detail.strCountry}</h3>
-                        <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {detail.strSport}</p>
-                        <h3> <FontAwesomeIcon icon={faMarsStroke} /> Gender: {detail.strGender}</h3>
+                            <h2>{detail.strTeam}</h2>
+                            <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Year: {detail.intFormedYear} </h3>
+                            <h3><FontAwesomeIcon icon={faFlag} /> Country: {detail.strCountry}</h3>
+                            <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {detail.strSport}</p>
+                            <h3> <FontAwesomeIcon icon={faMarsStroke} /> Gender: {detail.strGender}</h3>
                         </Col>
                         <Col sm={6}>
 
-                        {
-                            detail.strGender === 'Male' ?
-                                <img className="img-fluid" src={malePhoto} alt="" /> : <img src={femalePhoto} alt="" />
-                        }
+                            {
+                                detail.strGender === 'Male' ?
+                                    <img className="img-fluid" src={malePhoto} alt="" /> : <img src={femalePhoto} alt="" />
+                            }
                         </Col>
                     </Row>
                 </div>

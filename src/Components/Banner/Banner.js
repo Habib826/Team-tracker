@@ -1,9 +1,7 @@
 import React from 'react';
 import './Banner.css'
 import BannerImage from '../../Photo/stadium.jpeg'
-const Banner = (props) => {
-    console.log(props.team)
-
+const Banner = () => {
     const styles = {
         header: {
           backgroundImage: `url(${BannerImage})`,
@@ -16,10 +14,6 @@ const Banner = (props) => {
       }
     return (
         <header className="banner-header" style={styles.header}>
-            {/* <img className="banner" src={BannerImage} alt="Five developers at work."/> */}
-            {/* <section class='hero-header-text'>
-                
-            </section> */}
             <h1>Team tracker</h1>
          </header>
     );

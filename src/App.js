@@ -28,10 +28,7 @@ function App() {
           <Notmatch></Notmatch>
           </Route>
           <Route path="/team">
-            
           </Route>
-          
-          
         </Switch>
       </div>
     </Router>
