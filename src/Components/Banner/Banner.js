@@ -14,7 +14,7 @@ const Banner = () => {
       }
     return (
         <header className="banner-header" style={styles.header}>
-            <h1>Team tracker</h1>
+            <h1> League Tracker </h1>
          </header>
     );
 };
