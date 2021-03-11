@@ -1,0 +1,36 @@
+.team-header{
+    margin: 5px;
+    padding: 10px;
+}
+.logo img{
+    height:60%;
+}
+
+
+.detail{
+    padding: 10px;
+    margin: 20px;
+    background-color: #28a745;
+    border-radius: 20px;
+}
+.detail-paragraph{
+    background-color:#28a745;
+    margin:20px;
+    padding:10px;
+    border-radius:20px;
+}
+
+.description{
+    padding-top:30px;
+    padding: 15px;
+}
+
+.social-link{
+    text-align: center;
+}
+.social-image{
+    height:50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
